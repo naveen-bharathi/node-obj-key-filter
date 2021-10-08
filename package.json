@@ -1,0 +1,51 @@
+{
+  "name": "obj-key-filter",
+  "version": "1.0.0",
+  "description": "A package to recursively filter specific keys from an object.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc index.ts --outDir dist && node build.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveen-bharathi/node-obj-key-filter.git"
+  },
+  "keywords": [
+    "obj-key-filter",
+    "obj key filter",
+    "object-key-filter",
+    "object key filter",
+    "object",
+    "obj",
+    "key",
+    "filter",
+    "recursive"
+  ],
+  "author": {
+    "email": "naveen@naveenbharathi.com",
+    "name": "Naveen Bharathi"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naveen-bharathi/node-obj-key-filter/issues"
+  },
+  "homepage": "https://github.com/naveen-bharathi/js-obj-key-filter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-typescript": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "babel-jest": "^27.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1",
+    "jest": "^27.0.6",
+    "shelljs": "^0.8.4"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "types": "main.d.ts"
+}
